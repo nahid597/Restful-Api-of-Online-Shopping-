@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Product = require('../model/products');
 
+
 exports.get_all_product = (req, res, next) => {
 
     Product.find()
